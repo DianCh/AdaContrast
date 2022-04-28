@@ -1,0 +1,32 @@
+# DDP setting and logistics
+world_size: 1
+gpu: 0
+rank: 0
+port: 10000
+dist_url: "tcp://localhost:${port}"
+dist_backend: "nccl"
+multiprocessing_distributed: true
+seed: null
+
+# Pipeline flag & memo
+train_source: false
+target_algorithm: "ours"
+workdir: ./output
+memo: test
+sub_memo: null
+project: null
+use_wandb: true
+
+# Modular settings
+defaults:
+  - model_src: basic
+  - model_tta: moco
+  - data: basic
+  - optim: sgd
+  - learn: target
+
+# Place where all logs & cache go 
+hydra:
+  run:
+    dir: ${workdir}/${data.dataset}/${memo}
+  output_subdir: .hydra-${seed}

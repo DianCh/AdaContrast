@@ -1,0 +1,5 @@
+queue_size: 16384
+T_moco: 0.07
+m: 0.999
+
+src_log_dir: null   # used for loading source model checkpoint

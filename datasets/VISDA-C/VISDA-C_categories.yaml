@@ -1,0 +1,12 @@
+aeroplane: 0
+bicycle: 1
+bus: 2
+car: 3
+horse: 4
+knife: 5
+motorcycle: 6
+person: 7
+plant: 8
+skateboard: 9
+train: 10
+truck: 11

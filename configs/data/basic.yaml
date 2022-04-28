@@ -1,0 +1,12 @@
+data_root: "datasets/"
+dataset: "domainnet-126"
+train_ratio: 0.9      # ratio of training data used in source training
+source_domains:
+  - "real"
+target_domains:
+  - "sketch"
+pl_list: null         # cached initial pseudo labels to save time
+aug_type: "moco-v2"   # used in TTA contrastive learning
+
+batch_size: 128
+workers: 4
