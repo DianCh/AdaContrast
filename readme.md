@@ -1,6 +1,6 @@
 # Contrastive Test-Time Adaptation
 
-This is the official implementation of CVPR 2022 paper [**Contrastive Test-Time Adaptation**](https://arxiv.org/abs/2204.10377), authored by [Dian Chen](https://www.linkedin.com/in/dian-chen-robo8239158), [Dequan Wang](https://dequanwang.dqwang.group/), [Trevor Darrell](https://scholar.google.com/citations?user=bh-uRFMAAAAJ&hl=en), and [Sayna Ebrahimi](https://saynaebrahimi.github.io/).
+This is the official implementation of CVPR 2022 paper [**Contrastive Test-Time Adaptation**](https://arxiv.org/abs/2204.10377), authored by [Dian Chen](https://www.linkedin.com/in/dian-chen-robo8239158), [Dequan Wang](https://dequanwang.dqwang.group/), [Trevor Darrell](https://scholar.google.com/citations?user=bh-uRFMAAAAJ&hl=en), and [Sayna Ebrahimi](https://saynaebrahimi.github.io/). Please also see the [project page](https://sites.google.com/view/adacontrast/home).
 
 ![Main figure](media/main.png)
 
